@@ -9,7 +9,7 @@
 - Sovellus, joka tulostaa kertotaulun (1-10) käyttäjän syötteen arvosta (Esim: Käyttäjä antaa numeron 5 -> tulostuu kertotaulu 5*1, 5*2 ... 5*10)
 - Tarvitset kaksi integer muuttujaa, int luku ja int i, jossa i on kertotaulun kerroin, sekä silmukan lopetukseen tarvittava arvo (samalla tavalla kuin edellisessä tehtävässä)
 - TÄMÄ ON SAMA TEHTÄVÄ kuin aiemmalla osiolla, mutta toteuta tämä käyttämällä Metodia
-- Kertotaulun tulostava toiminto tulee olla omassa metodissaan ja sitä kutsutaan siinä, missä toiminto aikaisemmin oli - lue C# metodeja koskeva materiaali jos et sitä jo lukenut, sieltä löytyy hyviä esimerkkejä
+- Metodi nimeltä Kertolaskukaavalla ottaa kaksi kokonaislukua parametreina: ensimmäinen, int luku1, edustaa käyttäjän syöttämää lukua, ja toinen, int luku2, toimii kertoimena. Metodi palauttaa merkkijonon (string), joka sisältää laskutoimituksen tuloksen muotoiltuna seuraavaan muotoon: "kerroin * luku1 = tulos".
 - Metodi on jo olemassa, sen pitää muokata,että se toimi oikein - Metodin nimi "Kertolaskukaavalla".
 - HUOM! Tähän tehtävään ei tarvitse tehdä syötteen tarkistusta (int.TryParse edelliseltä osiolta)
 
